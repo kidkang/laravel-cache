@@ -27,10 +27,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kd\\Mc\\MyCacheServiceProvider"
+                "Kd\\MC\\MyCacheServiceProvider"
             ],
             "aliases":{
-                "MC":"Kd\\Mc\\Facades\\MyCache"
+                "MC":"Kd\\MC\\Facades\\MyCache"
             }
         }
     }

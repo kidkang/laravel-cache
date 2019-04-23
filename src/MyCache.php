@@ -25,5 +25,9 @@ class MyCache{
         }
         return $value;
     }
+
+    public function remove($key){
+        Cache::forget($key);
+    }
 }
 ?>
